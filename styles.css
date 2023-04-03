@@ -1,0 +1,231 @@
+/* FORMAT HTML TO AVOID GAP  */
+
+*,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  background-image: url("./images/ibrahim-boran-unsplash.jpg");
+}
+
+.container-navbar {
+  background-color: rgb(138, 135, 135);
+  width: 100%;
+  height: 10vh;
+}
+
+.ul-navbar {
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+.li-navbar {
+  list-style-type: none;
+  padding: 10px;
+  color: black;
+  font-weight: bold;
+  margin: 5px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.li-navbar:hover {
+  background-color: black;
+  transition: 0.2s ease-in-out;
+  transition-delay: 0.2s;
+  border-radius: 7px;
+  padding: 10px;
+}
+
+.a-navbar {
+  color: white;
+  text-decoration: none;
+}
+
+.container-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.home-container {
+  /* border: 2px solid green; */
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 8px;
+  color: white;
+  width: 70%;
+  margin: 20px auto;
+  padding: 20px;
+}
+.home-h2 {
+  /* border: 2px solid red; */
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.home-paragraph {
+  /* border: 2px solid red; */
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+.img-content {
+  width: 350px;
+  height: 450px;
+  opacity: 0.75;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.container-footer {
+  /* border: 2px solid red; */
+  height: 20vh;
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.h1-footer {
+  border: 2px solid rgba(37, 36, 36, 0.562);
+  border-radius: 10px;
+  font-size: 30px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  padding: 20px;
+}
+
+/* SERVICES PAGE */
+
+.services-paragraph {
+  /* border: 2px solid green; */
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 8px;
+  color: white;
+  width: 70%;
+  margin: 20px auto;
+  padding: 20px;
+}
+.services-paragraph h2 {
+  /* border: 2px solid red; */
+  font-size: 150px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+
+.services-paragraph p {
+  /* border: 2px solid red; */
+  font-size: 30px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  font-style: italic;
+}
+
+/* CONTACT PAGE */
+
+.container-contact {
+  /* border: 2px solid red; */
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 8px;
+  color: white;
+  width: 70%;
+  margin: 80px auto;
+  padding: 140px;
+}
+.contact-text h2 {
+  /* border: 2px solid red;  */
+  font-size: 60px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 0 50px;
+}
+
+.contact-icons {
+  /* border: 2px solid red;  */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.contact-icons a {
+  /* border: 2px solid red; */
+  padding: 15px;
+  margin: 10px;
+  font-size: 70px;
+  color: blue;
+  text-align: center;
+}
+
+.contact-icons a :hover {
+  background-color: white;
+  transition: 0.2s ease-in-out;
+  transition-delay: 0.2s;
+  border-radius: 7px;
+}
+
+/* ICONS TEXT */
+
+.email-text {
+  /* border: 2px solid black; */
+  border-radius: 5px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: bold;
+  background-color: rgb(109, 106, 106);
+  display: flex;
+  color: black;
+}
+
+.phone-text {
+  /* border: 2px solid black; */
+  border-radius: 5px;
+  font-size: 20px;
+  display: flex;
+  font-style: normal;
+  background-color: rgb(109, 106, 106);
+  color: black;
+  font-weight: bold;
+}
+
+.adress {
+  /* border: 2px solid black; */
+  border-radius: 5px;
+  font-size: 20px;
+  display: flex;
+  font-style: normal;
+  background-color: rgb(109, 106, 106);
+  color: black;
+  font-weight: bold;
+}
+
+/* .iframe {
+  width: 15;
+  height: 20;
+
+} */
+/* 
+/* .iframe-adress {
+ border: 2px solid black; 
+  font-size: 20px;
+  display: flex;
+  font-style: normal;
+  background-color: rgb(109, 106, 106);
+  color: black;
+  font-weight: bold;
+} */
